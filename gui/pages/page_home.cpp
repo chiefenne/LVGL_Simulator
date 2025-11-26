@@ -1,6 +1,6 @@
 #include "lvgl.h"
 #include "gui_data.h"
-#include "fonts.h"
+#include "gui/fonts.h"
 
 static lv_obj_t* label;
 

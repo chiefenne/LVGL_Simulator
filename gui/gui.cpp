@@ -1,6 +1,6 @@
 // gui/gui.cpp – bare minimum, works instantly in simulator
 #include "gui/gui.h"
-#include "fonts.h"
+#include "gui/fonts.h"
 #include "style_utils.h"
 #include "gui/pages/page_home.h"
 
