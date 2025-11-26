@@ -10,7 +10,7 @@ The GUI code is **completely independent** from the program logic - you design t
 
 <p align="center">
   <img src="assets/example.png" width="320"><br>
-  <em>LVGL Simulator running on macOS for 320×240 display size (scaled to 400 pixels here)</em>
+  <em>LVGL Simulator running on macOS for 320×240 display size</em>
 </p>
 
 ## Features
