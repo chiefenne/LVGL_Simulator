@@ -26,7 +26,7 @@ The GUI code is **completely independent** from the program logic - you design t
 ## Project Structure
 
 ```
-LVGL_Template_2025/
+LVGL_Template/
 ├── simulator/              # Desktop preview (macOS/Linux/Windows)
 │   ├── main.cpp           # SDL2 wrapper for LVGL
 │   ├── sim_state.cpp      # Mock data provider
