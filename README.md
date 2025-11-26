@@ -79,10 +79,13 @@ LVGL_Template/
    ```bash
    cd lvgl
    mkdir -p build && cd build
-   cmake .. -DLVGL_BUILD_EXAMPLES=OFF -DCMAKE_BUILD_TYPE=Release -DLVGL_BUILD_STATIC=ON
-   make -j$(nproc)
+   cmake .. -DCMAKE_BUILD_TYPE=Release -DLVGL_BUILD_STATIC=ON
+   # for 8 processors
+   make -j8
+   # we go from lvgl/build to lvgl
    cd ..
    ln -sf build/lib/liblvgl.a liblvgl.a
+   # we go from lvgl to the templates root folder
    cd ..
    ```
 
