@@ -85,6 +85,8 @@ LVGL_Template_2025/
    ./LVGL_SIM
    ```
 
+   **Note:** The build script `simulator/build_sim.sh` must be run from the project root directory and is currently configured for macOS. For Linux or Windows, you'll need to adapt the compiler flags and library paths in the script.
+
 ## Customization
 
 ### Adding Custom Fonts
