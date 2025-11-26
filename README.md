@@ -2,6 +2,8 @@
 
 A complete LVGL v9.4 project template with desktop simulator and embedded firmware support. Build once, run everywhere - from desktop preview to ESP32 hardware.
 
+> **Note:** This is a personal project template tailored to my workflow. If you're looking for other LVGL simulator options, check out the [official LVGL PC port](https://github.com/lvgl/lv_port_pc_vscode) or the [LVGL GUI Builder](https://github.com/qdsang/lv_gui_builder).
+
 **The key advantage:** Develop your GUI entirely on your computer (macOS, Linux, or Windows) without the slow upload-test-debug cycle of embedded development. The simulator lets you iterate quickly - make changes, rebuild in seconds, and see results immediately. No need to flash firmware, wait for uploads, or physically interact with hardware during GUI development.
 
 The GUI code is **completely independent** from the program logic - you design the interface, perfect the look and feel, and test the user experience entirely in the simulator. Once satisfied, the same GUI code deploys to your embedded device without modification. The separation means you can develop beautiful, responsive interfaces fast on your desktop, then integrate with hardware logic later.
