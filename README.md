@@ -9,7 +9,7 @@ A complete LVGL v9.4 project template with desktop simulator and embedded firmwa
 The GUI code is **completely independent** from the program logic - you design the interface, perfect the look and feel, and test the user experience entirely in the simulator. Once satisfied, the same GUI code deploys to your embedded device without modification. The separation means you can develop beautiful, responsive interfaces fast on your desktop, then integrate with hardware logic later.
 
 <p align="center">
-  <img src="assets/example.png" width="320"><br>
+  <img src="assets/example_01.png" width="320"><br>
   <em>LVGL Simulator running on macOS for 320×240 display size</em>
 </p>
 
