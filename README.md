@@ -89,7 +89,7 @@ LVGL_Template/
 4. **Build and run simulator**
    ```bash
    bash simulator/build_sim.sh
-   ./LVGL_SIM
+   ./binaries/lvgl_simulator_macOS
    ```
 
    **Note:** The build script `simulator/build_sim.sh` must be run from the project root directory and is currently configured for macOS. For Linux or Windows, you'll need to adapt the compiler flags and library paths in the script.
