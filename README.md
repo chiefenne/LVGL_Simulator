@@ -1,4 +1,4 @@
-# LVGL Project Template
+# LVGL Project Template and Simulator
 
 A complete LVGL v9.4 project template with desktop simulator and embedded firmware support. Build once, run everywhere - from desktop preview to ESP32 hardware.
 
@@ -6,16 +6,17 @@ A complete LVGL v9.4 project template with desktop simulator and embedded firmwa
 
 The GUI code is **completely independent** from the program logic - you design the interface, perfect the look and feel, and test the user experience entirely in the simulator. Once satisfied, the same GUI code deploys to your embedded device without modification. The separation means you can develop beautiful, responsive interfaces fast on your desktop, then integrate with hardware logic later.
 
-## 🎯 Features
+## Features
 
 - **Desktop Simulator**: Fast GUI development with SDL2 (macOS/Linux/Windows)
 - **Embedded Ready**: ESP32/PlatformIO firmware skeleton included
 - **Shared GUI Code**: Write your interface once, use it everywhere
+- **Page-Based Navigation**: Multi-page architecture with built-in navigation system
 - **Full-Screen Rendering**: Optimized for smooth 320×240 displays
 - **Custom Fonts**: Easy integration of LVGL-converted fonts
 - **Modern C++17**: Clean, maintainable codebase
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LVGL_Template_2025/
@@ -42,7 +43,7 @@ LVGL_Template_2025/
 └── template_files/       # Configuration templates
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -84,7 +85,7 @@ LVGL_Template_2025/
    ./LVGL_SIM
    ```
 
-## 🎨 Customization
+## Customization
 
 ### Adding Custom Fonts
 
@@ -111,13 +112,13 @@ static const lv_color_t COLOR_HEADER = lv_color_hex(0x1C5C8C);
 static const lv_coord_t HEADER_HEIGHT = 36;
 ```
 
-## 🔧 Configuration
+## Configuration
 
 - **Display size**: Edit `HRES` and `VRES` in `simulator/main.cpp`
 - **Color depth**: Set `LV_COLOR_DEPTH` in `lvgl/lv_conf.h` (default: 16-bit RGB565)
 - **Render mode**: Full-screen rendering enabled by default for stability
 
-## 📝 Architecture Notes
+## Architecture Notes
 
 ### GUI Layout Structure
 
@@ -156,7 +157,7 @@ clang -c gui/fonts/*.c  # Preserves extern "C" linkage
 ```
 The build script automatically handles this for all `.c` files in `gui/fonts/`.
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Black screen or corrupted graphics?**
 - Ensure `LV_COLOR_DEPTH` matches SDL pixel format (RGB565 = 16-bit)
@@ -169,15 +170,15 @@ The build script automatically handles this for all `.c` files in `gui/fonts/`.
 **Button rendering issues?**
 - Full-screen render mode is enabled by default to prevent partial update artifacts
 
-## 📄 License
+## License
 
 This template is provided as-is for educational and commercial use. LVGL is licensed under MIT.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please open an issue or PR for improvements.
 
-## 📚 Resources
+## Resources
 
 - [LVGL Documentation](https://docs.lvgl.io/)
 - [LVGL Forum](https://forum.lvgl.io/)
