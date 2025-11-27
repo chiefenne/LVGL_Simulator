@@ -13,6 +13,11 @@ The GUI code is **completely independent** from the program logic - you design t
   <em>LVGL Simulator running on macOS for 320×240 display size</em>
 </p>
 
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/example_02.mp4" width="320" autoplay loop muted></video><br>
+  <em>Navigation menu with HOME, previous/next, and settings buttons</em>
+</p>
+
 ## Features
 
 - **Desktop Simulator**: Fast GUI development with SDL2 (macOS/Linux/Windows)
