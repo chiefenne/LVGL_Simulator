@@ -13,6 +13,8 @@ The GUI code is **completely independent** from the program logic - you design t
   <em>LVGL Simulator running on macOS for 320×240 display size</em>
 </p>
 
+<br>
+
 <p align="center">
   <img src="assets/example_02.gif" width="320"><br>
   <em>Navigation menu with HOME, previous/next, and settings buttons</em>
