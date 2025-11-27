@@ -14,7 +14,7 @@ The GUI code is **completely independent** from the program logic - you design t
 </p>
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/example_02.mp4" width="320" autoplay loop muted></video><br>
+  <img src="assets/example_02.gif" width="320"><br>
   <em>Navigation menu with HOME, previous/next, and settings buttons</em>
 </p>
 
