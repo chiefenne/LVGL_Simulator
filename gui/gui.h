@@ -4,6 +4,8 @@
 
 enum GuiPage {
     PAGE_HOME = 0,
+    PAGE_DATA,
+    PAGE_SETTINGS,
     PAGE_COUNT
 };
 
